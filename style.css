@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Great+Vibes&family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Special Elite", cursive;
+}
+body {
+    background-image: url("images/coffee-1239226.jpg");
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+.header {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 75px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+nav {
+    flex: 1;
+    padding-left: 450px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 600;
+}
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1b1b1b71;
+    box-shadow: 1px 4px 12px #000;
+}
+.content .text {
+    position: relative;
+    max-width: 600px;
+    padding-left: 15px;
+}
+.content .text h1 {
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 80px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+    font-size: 40px;
+    color: #fff;
+}
+.content .text h1 span {
+    font-size: 50px;
+}
+.content .text p {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    margin-top: 40px;
+    color: #e7e3e3;
+ }
+.btn3 {
+    background: linear-gradient(to bottom, #291F1E 2%, #4e3e3e 100%);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 140px;
+    padding: 15px 30px;
+    text-align: center;
+    transition: .5s;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    box-shadow: 1px 4px 12px rgba(94,28,68,.15);
+}
+.coffee-lover {
+    display: flex;
+    height: 100%;
+    position: absolute;
+    width: 600px;
+    margin-top: 80px;
+    padding-left: 440px;
+    justify-content: flex-end;
+    
+}
+.sign {
+    width: 350px;
+    height: 200px;
+    margin-top: 35px;
+    box-shadow: 1px 4px 12px #000;
+}
+input[type=email] {
+    border: 2px solid #494331;
+    border-radius: 4px;
+    padding-top: 20px;
+    margin-left: 180px;
+    margin-top: 25px;
+  }
